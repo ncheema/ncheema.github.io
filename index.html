@@ -60,7 +60,7 @@
                         <a class="smoothScroll" href="#resume"><font size="8"></font><font size="5">Resume</font></a> </li>
                     <li><a class="smoothScroll" href="#work"><font size="8"></font><font size="5">Projects</font> </a> </li>
                     <li> <a class="smoothScroll" href="#contact"><font size="8"></font><font size="5">Contact</font> </a></li>
-                    <li> <a class="smoothScroll" href="#contact"><font size="8"></font><font size="5">Blog</font> </a></li>
+                    <li> <a class="smoothScroll" href="blog.html"><font size="8"></font><font size="5">Blog</font> </a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -299,6 +299,24 @@
 								var myDoughnut = new Chart(document.getElementById("html").getContext("2d")).Doughnut(doughnutData);
 						</script>
 					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="express" height="130" width="130"></canvas>
+						<p>Express.js</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 65,
+										color:"#1abc9c"
+									},
+									{
+										value : 35,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("express").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
 
 					<!--
 					<div class="col-lg-3 centered">
@@ -356,7 +374,7 @@
 					<h5>PROJECTS</h5>
 				</div>
 				<div class="col-lg-6">
-					<p><img class="img-responsive" src="assets/img/books.jpg" alt=""></p>
+					<p><img class="img-responsive"  src="assets/img/books.jpg" alt=""></p>
 				</div>
 				<div class="col-lg-3">
 					<p><t>Super-Zip</t></p> 
