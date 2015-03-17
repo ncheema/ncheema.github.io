@@ -79,7 +79,7 @@
                
                 <h1 class="page-header">
                    <a href="blog.html"> Nav's Blog  </a>
-                    <small>my 2&cent; on tech & dev</small>
+                    <small>my 2&cent; on tech & software development</small>
                 </h1>
 
                 <!-- First Blog Post -->
@@ -95,7 +95,7 @@
                 modified by navjot cheema
                 -->
                 <hr>
-                <p class="lead" style=" text-indent: 3em;">First question we need to address is that does our application data fits the table based model or the document based model. Our application is going to have forum based data, along with that each doctors’ office would have 	the flexibility of adding or deleting fields on the forum as needed. Given MongoDB is schema-less, its document based model allows adding a new field without affecting old rows/documents and will be done in an instant. On the other hand if you use SQL(table based), which requires predefined schema(table model) , we would have to do lots of work to reconfigure the database every time a field is added or removed. </p>
+                <p class="lead" style=" text-indent: 3em;">First question we need to address is that does our application[described in <a href="angular.html">Part I</a>] data fits the table based model or the document based model. Our application is going to have forum based data, along with that each doctors’ office would have 	the flexibility of adding or deleting fields on the forum as needed. Given MongoDB is schema-less, its document based model allows adding a new field without affecting old rows/documents and will be done in an instant. On the other hand if you use SQL(table based), which requires predefined schema(table model) , we would have to do lots of work to reconfigure the database every time a field is added or removed. </p>
                 
                 <p class="lead" style=" text-indent: 3em;">Second thing to consider is which database would be better in the long term. The long-term data growth of our application is very high. MongoDB provides sharding and load-balancing which would let us store data records across multiple machines, and with sharding we can meet the demand of data growth as the application grows. Therefore instead of increasing servers to handle more data load, a MongoDB database will allows us to distribute the load across multiple hosts as the load increases. MongoDB does come with one cost which is while a write operation is in progress, it doesn’t allow another write operation, but does allow concurrence (multiple) reads a time. In our application it doesn’t have a high effect, since we are going be mainly doing reads, which would be checking in operation, which triggers server to request database to find patient record, database does a read operation to find record, and database use that result to notify the doctor and the patient. Thus only read operation occurs. Only time a write operation occurs is when a patient does a register operation.  monogodb also provide rapid development and its schemaless and works right out of the box. Thus we should use MongoDB since it will fit our needs of storing large amounts of data and it will fulfill our long term goal of distribute database traffic across multiple machines.
                 </p>
