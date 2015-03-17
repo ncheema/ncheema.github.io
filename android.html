@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <title>Navjot Cheema's Blog</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+    
+    <script src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/smoothscroll.js"></script> 
+    <script src="assets/js/Chart.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body data-spy="scroll" data-offset="0" data-target="#nav">
+
+    
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="icon-bar"></i>
+                    <i class="icon-bar"></i>
+                    <i class="icon-bar"></i>
+                </button>
+               
+            </div>
+           <!--  <a class="navbar-brand page-scroll" href="#page-top"><font size="5">navjot Cheema</font></a> -->
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul id="nav" class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="smoothScroll" href="index.html#about"><font size="8"></font><font size="5">About</font></a>
+                    </li>
+                    <li>
+                        <a class="smoothScroll" href="index.html#resume"><font size="8"></font><font size="5">Resume</font></a> </li>
+                    <li><a class="smoothScroll" href="index.html#work"><font size="8"></font><font size="5">Projects</font> </a> </li>
+                    <li> <a class="smoothScroll" href="index.html#contact"><font size="8"></font><font size="5">Contact</font> </a></li>
+                    <li> <a class="smoothScroll" href="blog.html"><font size="8"></font><font size="5">Blog</font> </a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    
+    
+        <!-- Page Content -->
+    <div class="container desc">
+
+        <div class="row">
+
+            <!-- Blog Entries Column -->
+            <div class="col-md-8">
+               
+                <h1 class="page-header">
+                   <a href="#"> Nav's Blog
+                    <small>where I rant about stuff!</small>
+                </h1>
+
+                <!-- First Blog Post -->
+                <h2>
+                    Android Security
+                </h2>
+                
+                <p><span class="glyphicon glyphicon-time"></span> Posted on August 28, 2013 at 10:00 PM</p>
+                <hr>
+                <img class="img-responsive" src="http://placehold.it/900x300" alt="">
+                <hr>
+                <p style=" text-indent: 3em;">As of early 2015, Android operating system has over 50% market share of Smart Phones Operating System; which makes it vulnerable to malicious attacks due to its popularity.For the last two years I got the opportunity to work in the field of android application development. One of the recent areas I worked was resolving issues related to Android Security while interning at Cubic Transportation System.  I came across certain flaws in Android Security, which are neglected by the Android users daily, which can cause great damage. Data and privacy being highly valuable we are going to focus on how data and privacy can be vulnerable from a user point of view and how to prevent it. Reason being that most of the time malicious attacks happen due to lack of knowledge from a user.</P>
+                <p style=" text-indent: 3em;">Google play store recent malicious software tool does have malicious software checks running on your device to check for attacks while the application is running. Moreover each application goes through multiple malware checks before getting published on the Google play store. Along with that Android by default doesn’t allow any application to read or write to private data or data of other applications. Where does the security flaw occur? Android allows applications to ask for certain permission to access core features such as camera, data, microphone, and user of the application has to decide whether it wants to grant those permission. While downloading an application, user don’t pay close attention to the permissions they are grating to the application. For example an application might ask permissions to access your microphone, now application can access microphone anytime it wants, and send the recordings to whomever it wants. Now same scenario applies while giving permission to access photos and data. Moreover user use third party unauthorized application stores to download the paid apps for free, where no malware detection check takes place and user has a high chance of downloading malicious software. </br>
+                First reaction of most users is to go download anti-virus software on their mobile device to protect them. However bad news is anti-virus wouldn’t protect users from above scenarios. Reason being that anti-virus software attacks usually search for patterns such as when an application trying to get root/admin access without the permission of the user. However in the above scenario user already granted permission to the application at the beginning of the download. So what should users do to protect themselves? </p>
+                <p style=" text-indent: 3em;">First part of the solution is to download the application from Google play store due to its malware detection software on the play store. Along with that a user should double check permissions for the application before granting permission. If an application is designed to show current temperature of the city, it shouldn’t have access to your photos, camera, and microphone.  Moreover user should research how certain permissions are being used by the application, and turn off the unnecessary permissions. Besides that users should only allow certain permission to the application while the application is being used, rather than permission being active all the time.  Android open source model does create certain security risks but can be tackled if taken right security precautions as mentioned above by its users. 
+                </p>
+                <a ></a>
+
+                
+
+                
+
+               
+
+                <!-- Pager -->
+                <ul class="pager">
+                    <li class="previous">
+                        <a href="#">&larr; Older</a>
+                    </li>
+                    <li class="next">
+                        <a href="angular.html">Newer &rarr;</a>
+                    </li>
+                </ul>
+
+            </div>
+
+
+            <!-- Blog Sidebar Widgets Column -->
+            <div class="col-md-3">
+
+                <!-- Blog Search Well -->
+                <div class="well">
+                    
+                    <h4>Blog Search</h4>
+                    <div class="input-group">
+                        <input type="text" class="form-control">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="button">
+                                <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                        </span>
+                    </div>
+                    <!-- /.input-group -->
+                </div>
+
+                <!-- Blog Categories Well -->
+                <div class="well">
+                    <h4>Blog Categories</h4>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <ul class="list-unstyled">
+                                <li><a href="#">Category Name</a>
+                                </li>
+                                <li><a href="#">Category Name</a>
+                                </li>
+                                <li><a href="#">Category Name</a>
+                                </li>
+                                <li><a href="#">Category Name</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /.col-lg-6 -->
+                        <div class="col-lg-6">
+                            <ul class="list-unstyled">
+                                <li><a href="#">Category Name</a>
+                                </li>
+                                <li><a href="#">Category Name</a>
+                                </li>
+                                <li><a href="#">Category Name</a>
+                                </li>
+                                <li><a href="#">Category Name</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /.col-lg-6 -->
+                    </div>
+                    <!-- /.row -->
+                </div>
+
+                <!-- Side Widget Well -->
+                <div class="well">
+                    <h4>Side Widget Well</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, perspiciatis adipisci accusamus laudantium odit aliquam repellat tempore quos aspernatur vero.</p>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        
+
+    </div>
+    <!-- /.container -->
+   
+    <!--FOOTER DESCRIPTION -->
+    
+       
+    
+    
+   <div id="c">
+        <div class="container">
+            <p>Created by <a href="">NAVJOT CHEEMA</a></p>
+        
+        </div>
+    </div>
+    
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/bootstrap.js"></script>
+  </body>
+</html>
