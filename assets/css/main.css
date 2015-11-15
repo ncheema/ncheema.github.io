@@ -1,10 +1,27 @@
- /* Author: Carlos Alvarez
+ /* Author: Carlos Alvarez (Modified by Navjot Cheema)
+ * Original CSS file  belongs to the project below. I modified the file
+ * and added personal flavor to it.
+ * Check out the original author, his work is great!!!
  * URL: http://alvarez.is
  *
- * Project Name: Kelvin - Free Bootstrap 3 Resume Theme
+ * Original Project Name: Kelvin - Free Bootstrap 3 Resume Theme
  * Version: 1.0
  * URL: http://blacktie.co
  */
+
+ .project {
+   text-align: right;
+ }
+/* container to hold proejct details */
+ .project_container {
+   background-color: white;
+   display: block;
+   font-size: 14px;
+   padding: 14px;
+   text-align: left;
+ }
+
+
 
 body {
   background-color: #f2f2f2;
@@ -161,7 +178,7 @@ a:after {
 	background-position: center center;
 	min-height: 500px;
 	width: 100%;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -190,7 +207,7 @@ a:after {
 	padding-top: 60px;
 	padding-bottom: 60px;
 	color: white;
-} 
+}
 
 #intro h5, p {
 	color: white;
